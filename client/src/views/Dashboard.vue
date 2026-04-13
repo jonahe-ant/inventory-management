@@ -801,7 +801,7 @@ export default {
 
 .kpi-progress {
   height: 100%;
-  background: #3b82f6;
+  background: var(--accent);
   border-radius: 3px;
   transition: width 0.6s ease;
 }
@@ -1044,11 +1044,11 @@ export default {
   width: 100%;
   max-width: 60px;
   min-height: 8px;
-  background: #3b82f6;
+  background: var(--accent);
   border-radius: 6px 6px 0 0;
   transition: all 0.3s ease;
   cursor: pointer;
-  box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3);
+  box-shadow: 0 2px 4px rgba(5, 150, 105, 0.3);
 }
 
 .line-bar.empty-bar {
@@ -1058,7 +1058,7 @@ export default {
 }
 
 .line-bar:hover {
-  background: #2563eb;
+  background: #047857;
   transform: scaleY(1.05);
 }
 
@@ -1109,7 +1109,7 @@ export default {
 }
 
 .clickable-row:hover {
-  background: #eff6ff !important;
+  background: var(--accent-soft) !important;
 }
 
 /* Tasks Card Styles */
@@ -1248,14 +1248,14 @@ export default {
 }
 
 .po-button.create {
-  background: #3b82f6;
+  background: var(--accent);
   color: white;
 }
 
 .po-button.create:hover {
-  background: #2563eb;
+  background: #047857;
   transform: translateY(-1px);
-  box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3);
+  box-shadow: 0 2px 4px rgba(5, 150, 105, 0.3);
 }
 
 .po-button.view {

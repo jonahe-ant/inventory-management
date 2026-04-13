@@ -723,7 +723,7 @@ export default {
 
 .category-amount {
   font-weight: 700;
-  color: #2563eb;
+  color: var(--accent);
   font-size: 1.125rem;
 }
 
@@ -737,7 +737,7 @@ export default {
 
 .category-bar {
   height: 100%;
-  background: linear-gradient(90deg, #3b82f6 0%, #2563eb 100%);
+  background: linear-gradient(90deg, var(--accent) 0%, #047857 100%);
   border-radius: 4px;
   transition: width 0.6s ease;
 }
@@ -817,7 +817,7 @@ export default {
 }
 
 .transactions-table tbody tr.clickable-row:hover {
-  background: #eff6ff;
+  background: var(--accent-soft);
 }
 
 .transaction-id {
