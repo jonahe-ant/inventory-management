@@ -37,7 +37,7 @@ export default {
       '/orders': () => t('nav.orders'),
       '/spending': () => t('nav.finance'),
       '/demand': () => t('nav.demandForecast'),
-      '/reports': () => 'Reports'
+      '/reports': () => t('nav.reports')
     }
 
     const pageTitle = computed(() => {

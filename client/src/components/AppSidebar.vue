@@ -57,7 +57,7 @@ export default {
       { path: '/orders', label: t('nav.orders'), icon: ICONS.clipboard, exact: false },
       { path: '/spending', label: t('nav.finance'), icon: ICONS.currency, exact: false },
       { path: '/demand', label: t('nav.demandForecast'), icon: ICONS.trending, exact: false },
-      { path: '/reports', label: 'Reports', icon: ICONS.barchart, exact: false }
+      { path: '/reports', label: t('nav.reports'), icon: ICONS.barchart, exact: false }
     ])
 
     const brandInitial = computed(() => {
